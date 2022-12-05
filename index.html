@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>goit-markup-hw-01</title>
     <link rel="stylesheet" href="css/modern-normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
       <div class="header-wrapper wrapper">
-        <a class="header-logo" href="./portfolio.html"
+        <a class="header-logo" href="./index.html"
           ><span class="logo-span">Web</span>Studio</a
         >
         <nav>
           <ul class="header-menu">
-            <li><a href="./portfolio.html">Studio</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a class="menu" href="./index.html">Studio</a></li>
+            <li><a class="menu" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="menu" href="#">Contacts</a></li>
           </ul>
         </nav>
         <div class="header-contacts">
@@ -31,145 +31,113 @@
         </div>
       </div>
     </header>
-    <main class="main wrapper">
-      <section class="section-buttons">
-        <ul class="buttons">
-          <li>
-            <button class="button" type="button">
-              <span>All</span>
-            </button>
+
+    <main>
+      <section class="section-solutions">
+        <h1 class="solutions">Effective Solutions for Your Business</h1>
+        <button class="button-main" type="button">Order Service</button>
+      </section>
+
+      <section class="section-text">
+        <ul class="text" style="list-style: none">
+          <li class="text-text">
+            <h3 class="text-h">Strategy</h3>
+            <p class="text-p">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
           </li>
-          <li>
-            <button class="button" type="button">
-              <span>Web Site</span>
-            </button>
+          <li class="text-text">
+            <h3 class="text-h">Punctuality</h3>
+            <p class="text-p">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
           </li>
-          <li>
-            <button class="button" type="button">
-              <span>App</span>
-            </button>
+          <li class="text-text">
+            <h3 class="text-h">Diligence</h3>
+            <p class="text-p">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
           </li>
-          <li>
-            <button class="button" type="button">
-              <span>Design</span>
-            </button>
-          </li>
-          <li>
-            <button class="button" type="button">
-              <span>Marketing</span>
-            </button>
+          <li class="text-text">
+            <h3 class="text-h">Technologies</h3>
+            <p class="text-p">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
           </li>
         </ul>
       </section>
 
-      <section class="section-projects">
-        <ul class="projects" style="list-style: none">
-          <li class="project-block">
+      <section>
+        <h2 class="text-big">What are we doing</h2>
+        <ul class="photos" style="list-style: none">
+          <li>
             <img
-              src="./images/screens.jpg"
-              alt="screen interfaces"
+              src="./images/comp.jpg"
+              alt="computer"
               width="360"
               height="300"
             />
-            <div>
-              <h3 class="project-text">Banking App Interface Concept</h3>
-              <p class="project-ptext">App</p>
-            </div>
           </li>
-          <li class="project-block">
-            <img src="./images/text.jpg" alt="text" width="360" height="300" />
-            <div>
-              <h3 class="project-text">Cashless Payment</h3>
-              <p class="project-ptext">Marketing</p>
-            </div>
-          </li>
-          <li class="project-block">
+          <li>
             <img
-              src="./images/compphone.jpg"
+              src="./images/4screens.jpg"
+              alt="4screens"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/both.jpg"
               alt="computer and phone"
               width="360"
               height="300"
             />
-            <div>
-              <h3 class="project-text">Meditation App</h3>
-              <p class="project-ptext">App</p>
-            </div>
           </li>
-          <li class="project-block">
-            <img
-              src="./images/car.jpg"
-              alt="car and phone"
-              width="360"
-              height="300"
-            />
-            <div>
-              <h3 class="project-text">Taxi Service</h3>
-              <p class="project-ptext">Marketing</p>
-            </div>
+        </ul>
+      </section>
+
+      <section class="section-team">
+        <h2 class="text-big">Our Team</h2>
+        <ul class="team" style="list-style: none">
+          <li class="team-block">
+            <img src="./images/mark.jpg" alt="Mark" width="264" height="260" />
+            <h3 class="team-text">Mark Guerrero</h3>
+            <p class="team-ptext">Product Designer</p>
           </li>
-          <li class="project-block">
-            <img
-              src="./images/phone.jpg"
-              alt="phone screens"
-              width="360"
-              height="300"
-            />
-            <div>
-              <h3 class="project-text">Screen Illustrations</h3>
-              <p class="project-ptext">Design</p>
-            </div>
+          <li class="team-block">
+            <img src="./images/tom.jpg" alt="Tom" width="264" height="260" />
+            <h3 class="team-text">Tom Ford</h3>
+            <p class="team-ptext">Frontend Developer</p>
           </li>
-          <li class="project-block">
+          <li class="team-block">
             <img
-              src="./images/girl.jpg"
-              alt="girl holding a phone"
-              width="360"
-              height="300"
+              src="./images/cami.jpg"
+              alt="Camila"
+              width="264"
+              height="260"
             />
-            <div>
-              <h3 class="project-text">Online Courses</h3>
-              <p class="project-ptext">Marketing</p>
-            </div>
+            <h3 class="team-text">Camila Garcia</h3>
+            <p class="team-ptext">Marketing</p>
           </li>
-          <li class="project-block">
+          <li class="team-block">
             <img
-              src="./images/interfaces.jpg"
-              alt="interfaces of website"
-              width="360"
-              height="300"
+              src="./images/daniel.jpg"
+              alt="Daniel"
+              width="264"
+              height="260"
             />
-            <div>
-              <h3 class="project-text">Instagram Stories Concept</h3>
-              <p class="project-ptext">Design</p>
-            </div>
-          </li>
-          <li class="project-block">
-            <img
-              src="./images/fruits.jpg"
-              alt="woman with food"
-              width="360"
-              height="300"
-            />
-            <div>
-              <h3 class="project-text">Organic Food</h3>
-              <p class="project-ptext">Web Site</p>
-            </div>
-          </li>
-          <li class="project-block">
-            <img
-              src="./images/coffee.jpg"
-              alt="making coffee"
-              width="360"
-              height="300"
-            />
-            <div>
-              <h3 class="project-text">Fresh Coffee</h3>
-              <p class="project-ptext">Web Site</p>
-            </div>
+            <h3 class="team-text">Daniel Wilson</h3>
+            <p class="team-ptext">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
+
     <footer class="footer">
       <div class="footer-block">
         <a class="footer-logo" href="/portfolio.html"
