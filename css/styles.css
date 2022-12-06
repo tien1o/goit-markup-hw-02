@@ -56,7 +56,7 @@ body {
   color: var(--IRIS);
 }
 
-.header-menu {
+.menu {
   list-style: none;
   display: flex;
   gap: 25px;
