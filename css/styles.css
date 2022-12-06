@@ -56,11 +56,11 @@ body {
   color: var(--IRIS);
 }
 
-.menu {
+.header-menu {
   list-style: none;
   display: flex;
   gap: 25px;
-  color: var(--slate);
+  color: var(--navyblue);
 }
 
 .menu:hover {
